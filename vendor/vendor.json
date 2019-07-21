@@ -93,6 +93,12 @@
 			"revisionTime": "2019-07-02T17:22:52Z"
 		},
 		{
+			"checksumSHA1": "BYIJvQW0/YSVUFubs2DcVYpe9rk=",
+			"path": "github.com/gocolly/colly/proxy",
+			"revision": "2e4108fbc870b1670c2e81c37f53feb1eb84583b",
+			"revisionTime": "2019-07-02T17:22:52Z"
+		},
+		{
 			"checksumSHA1": "Yr0WHKEt2ZtOZQt1G9PZABc8vDg=",
 			"path": "github.com/gocolly/colly/storage",
 			"revision": "2e4108fbc870b1670c2e81c37f53feb1eb84583b",
@@ -115,6 +121,12 @@
 			"path": "github.com/saintfish/chardet",
 			"revision": "3af4cd4741ca4f3eb0c407c034571a6fb0ea529c",
 			"revisionTime": "2012-08-16T06:12:21Z"
+		},
+		{
+			"checksumSHA1": "3JBPxvZn52LORHX9F382xpkt1sA=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "b2ce2384e17bbe0c6d34077efa39dbab3e09123b",
+			"revisionTime": "2018-10-28T12:50:25Z"
 		},
 		{
 			"checksumSHA1": "4yAi58/2WNapA/fNXdO2DQQ48u4=",
