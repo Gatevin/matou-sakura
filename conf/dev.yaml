@@ -1,0 +1,33 @@
+#打印日志级别 debug:-1 info:0 warn:1 error:2
+loglevel: 0
+
+infolog:
+    path: "./logs/info.log"
+
+errorlog:
+    path: "./logs/error.log"
+
+#代理地址
+proxy:
+    addr: "http://127.0.0.1:1080"
+
+search_website:
+    yande_re:
+        website: "yande.re"
+        use: true
+    pixiv:
+        website: "pixiv.net"
+        use: false
+
+search_keyworld:
+    "matou_sakura"
+
+colly:
+        async: false
+        max_depth: 3
+        parallelism: 4
+        random_delay_second: 4
+
+redis:
+    address:
+        "127.0.0.1:6379"

@@ -4,6 +4,7 @@ import (
 	"github.com/gocolly/colly"
 	"github.com/gocolly/colly/proxy"
 	"github.com/satori/go.uuid"
+	"matou-sakura/config"
 	"fmt"
 	"time"
 	//"io"
@@ -135,6 +136,8 @@ func (yc *YandeCollector) End() {
 
 func main() {
 	searchKeyWord := "matou_sakura"
+	confVip := config.LoadConfig()
+	fmt.Println(confVip.GetString("proxy.addr"))
 	YandeHandler.Prepare(searchKeyWord)
 	YandeHandler.Start()
 	YandeHandler.End()
